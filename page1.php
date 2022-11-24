@@ -25,12 +25,14 @@ if (
     $number = 'élèves';
   }
   
-  echo '<p>' . $count . '' . $number . '</p>';
+  echo '<h2 class= "center">' . $count . ' ' . $number . '</h2>';
   
   
 for ( $count = 0; $count < count($_SESSION['list']); $count++ ) {
   $i = $i +1 ;
-  echo '<a href="page2.php?i=' . $i . '">' . $_SESSION['list'][$count][0] . ' ' . $_SESSION['list'][$count][1] . '</br>' . '</a>';}
+
+
+  echo ' <div id= column>  <a class="nav-link" href="page2.php?i=' . $i . '">' . $_SESSION['list'][$count][0] . ' ' . $_SESSION['list'][$count][1] . '</br>' . '</a> </div> ';}
 
   // var_dump($i);
   

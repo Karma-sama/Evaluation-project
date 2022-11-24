@@ -3,6 +3,7 @@
 }
 .center {
     text-align: center;
+    margin: 20px;
 }
 .right {
     text-align: right;
@@ -60,3 +61,10 @@
  button {
     margin-top: 20px;
  }
+
+ #column {
+    padding: 10px;
+    box-shadow: 0px 1px 2px 2px rgb(0 0 0 / 10%);
+    
+}
+ 
