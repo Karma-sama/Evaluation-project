@@ -11,17 +11,18 @@
 
 
 #green {
+    height: 60px;
     text-align: center;
-    text-align: justify;
     color: green;
-    background-color:rgb(130, 224, 170);
+    background-color:#D4EDDA;
 }
 
 #red {
+    align-self: center;
+    height: 60px;
     text-align: center;
-    text-align: justify;
     color: red;
-    background-color: rgb(231, 76, 60);
+    background-color: #F7D7DA;
 }
 
 .mb-3 {

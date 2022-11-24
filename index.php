@@ -8,7 +8,7 @@
 
 $msg;
 
-var_dump($_SESSION);
+// var_dump($_SESSION);
 
 if (
     isset($_GET['firstname']) AND
@@ -20,12 +20,10 @@ if (
     !empty($_GET['age']) AND
     !empty($_GET['adresse'])
 ) {
-    echo $msg = '<p id= green> Elève ajouté ! </p>';
     array_push($_SESSION['list'],[$_GET['firstname'],$_GET['lastname'],$_GET['age'],$_GET['adresse']]);
-    
-    
+    echo $msg = '<p id= green> Elève ajouté ! </p>'; 
 } else {
-    echo $msg = '<p id= red>Merci de renseigner tout les champs !</p>';
+    echo $msg = '<p id= red> Merci de renseigner tout les champs !</p>';
 }
 
 ?>
