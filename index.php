@@ -19,6 +19,7 @@ if (
     !empty($_GET['lastname']) AND
     !empty($_GET['age']) AND
     !empty($_GET['adresse'])
+
 ) {
     array_push($_SESSION['list'],[$_GET['firstname'],$_GET['lastname'],$_GET['age'],$_GET['adresse']]);
     echo $msg = '<p id= green> Elève ajouté ! </p>'; 
