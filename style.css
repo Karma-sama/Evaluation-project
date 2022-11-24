@@ -8,30 +8,54 @@
     text-align: right;
 }
 
-#footer {
-    text-align: left;
-    text-align: start;
-}
+
 
 #green {
     text-align: center;
     text-align: justify;
     color: green;
+    background-color:rgb(130, 224, 170);
 }
 
 #red {
     text-align: center;
     text-align: justify;
     color: red;
+    background-color: rgb(231, 76, 60);
 }
 
 .mb-3 {
+
     width: 50%;
     height:50%;
+    text-align: left;
     
 }
 
 #form {
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:100%;
 }
+
+#footer  {
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    height: 3%;
+    bottom: 0%;
+}
+
+#header {
+    justify-content: space-evenly;
+}
+
+.space {
+    margin-top: 20px;
+}
+
+ button {
+    margin-top: 20px;
+ }

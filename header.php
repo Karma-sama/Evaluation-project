@@ -21,7 +21,7 @@ if (!isset($_SESSION['list'])) {
 <body>
     <header>
         <nav>
-            <ul class="nav">
+            <ul id= "header" class="nav">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="index.php">Ajouter un éléve</a>
   </li>

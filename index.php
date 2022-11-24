@@ -41,25 +41,25 @@ if (
     <div><input name="adresse" type="text" id="adresse"></div>
     <div><input type="submit" value="Ajouter cet élève"></div> -->
 
-<form action="" method="GET">
-<div id= form>
-  <div class="mb-3">
+<form id= "form" action="" method="GET">
+<div class= "mb-3">
+  <div class= "space">
     <label for="firstname" class="form-label">Votre Prénom</label>
     <input name= "firstname" type="text" class="form-control" id="firstname" aria-describedby="text">
   </div>
-  <div class="mb-3">
+  <div class= "space">
     <label for="lastname" class="form-label">Votre Nom</label>
     <input name="lastname" type="text" class="form-control" id="lastname">
   </div>
-  <div class="mb-3">
+  <div class= "space">
     <label for="age" class="form-label">Votre Âge</label>
     <input name="age" type="text" class="form-control" id="age">
   </div>
-  <div class="mb-3">
+  <div class= "space">
     <label for="adresse" class="form-label">Votre Adresse</label>
     <input name="adresse" type="text" class="form-control" id="adresse">
   </div>
-  <button type="submit" class="btn btn-primary">Ajouter cet élève</button>
+  <button  type="submit" class="btn btn-primary">Ajouter cet élève</button>
 </div>
 </form>
 

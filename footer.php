@@ -1,9 +1,9 @@
-<footer>
+<footer id=footer>
 <nav>
     <?php
-  echo '<p id=footer >M2I - PHP</p>'
+  echo '<p>M2I - PHP</p>'
     ?>
-  </nav>    
+</nav>    
 
 </footer>
 
