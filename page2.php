@@ -15,10 +15,11 @@ if (isset($_GET['i'])) {
 
     for ($student = 0; $student < count($_SESSION['list'][$root]); $student++) {
     echo  $_SESSION['list'][$root][$student] . '</br>'  ;
-
 }
+echo '<a href="index.php">Modifier</a>';
 echo '</div>';
 }
+
 
 
 // var_dump($root);
